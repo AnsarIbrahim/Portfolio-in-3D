@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
-import { ComputersCanvas } from './canvas';
+// import { ComputersCanvas } from './canvas';
 
 const Hero = () => {
   return (
@@ -24,6 +24,7 @@ const Hero = () => {
         </div>
       </div>
       <ComputersCanvas isMobile={true} />
+
       <div className=" absolute bottom-32 flex w-full items-center justify-center xs:bottom-10">
         <a href="#about">
           <div className="flex h-[64px] w-[35px] items-start justify-center rounded-3xl border-4 border-secondary p-2">
